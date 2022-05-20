@@ -20,5 +20,8 @@
             <Año></Año>
         </Fecha>
         <Epoca/>
+        <PersonajeDestacado>
+            Test persona <Nombre></Nombre> y fecha de nacimiento: <FechaNacimiento></FechaNacimiento>
+        </PersonajeDestacado>
     </HechoHistorico>
 </HechosHistoricos>

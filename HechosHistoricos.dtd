@@ -1,6 +1,7 @@
 <!ELEMENT HechosHistoricos (HechoHistorico)>
         <!ATTLIST HechoHistorico descripcion CDATA #REQUIRED>
-        <!ELEMENT HechoHistorico (Fecha)>
+        <!ELEMENT HechoHistorico (Fecha, Epoca)>
+        <!ELEMENT Epoca EMPTY>
         <!ELEMENT Fecha (Dia, Mes, Año)>
         <!ELEMENT Dia (#PCDATA)>
         <!ELEMENT Mes (#PCDATA)>

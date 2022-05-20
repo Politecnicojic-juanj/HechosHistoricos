@@ -19,5 +19,6 @@
             <Mes></Mes>
             <Año></Año>
         </Fecha>
+        <Epoca/>
     </HechoHistorico>
 </HechosHistoricos>

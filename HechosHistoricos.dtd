@@ -1,11 +1,12 @@
-<!ELEMENT HechosHistoricos (HechoHistorico)>
+<!-- Cardinalidad *, +, ?, | -->
+<!ELEMENT HechosHistoricos (HechoHistorico)+>
         <!ATTLIST HechoHistorico descripcion CDATA #REQUIRED>
-        <!ELEMENT HechoHistorico (Fecha, Epoca, PersonajeDestacado)>
+        <!ELEMENT HechoHistorico (Fecha, Epoca, PersonajeDestacado*)?>
         <!ELEMENT PersonajeDestacado ANY>
         <!ELEMENT Nombre (#PCDATA)>
-        <!ELEMENT FechaNacimiento (#PCDATA)
+        <!ELEMENT FechaNacimiento (#PCDATA)>
         <!ELEMENT Epoca EMPTY>
-        <!ELEMENT Fecha (Dia, Mes, Año)>
+        <!ELEMENT Fecha (Dia, Mes, Año | #PCDATA)>
         <!ELEMENT Dia (#PCDATA)>
         <!ELEMENT Mes (#PCDATA)>
         <!ELEMENT Año (#PCDATA)>

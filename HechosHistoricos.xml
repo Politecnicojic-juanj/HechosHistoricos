@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!--
+<!DOCTYPE HechosHistoricos [
+        <!ELEMENT HechosHistoricos (HechoHistorico)>
+        <!ATTLIST HechoHistorico descripcion CDATA #REQUIRED>
+        <!ELEMENT HechoHistorico (Fecha)>
+        <!ELEMENT Fecha (Dia, Mes, Año)>
+        <!ELEMENT Dia (#PCDATA)>
+        <!ELEMENT Mes (#PCDATA)>
+        <!ELEMENT Año (#PCDATA)>
+        ]>
+        -->
+<!DOCTYPE HechosHistoricos SYSTEM "HechosHistoricos.dtd">
 <HechosHistoricos>
-
+    <HechoHistorico descripcion="AAAAA">
+        <Fecha>
+            <Dia></Dia>
+            <Mes></Mes>
+            <Año></Año>
+        </Fecha>
+    </HechoHistorico>
 </HechosHistoricos>
